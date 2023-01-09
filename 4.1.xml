@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viaje>
+    <cliente>
+        <nombre>Alejandro</nombre>
+        <apellidos>Baños</apellidos>
+    </cliente>
+    <fecha>
+        <inicio>10/01/2023</inicio>
+        <fin>20/01/2023</fin>
+    </fecha>
+    <origen>Santiago de compostela</origen>
+    <destinos>
+        <ciudad>Paris</ciudad>
+        <hotel>Hilton</hotel>
+        <nCoches>0</nCoches>
+    </destinos>
+    <precio>2000</precio>
+</viaje>
