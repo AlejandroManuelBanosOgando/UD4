@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ficha>
+    <datosPersonales>
+        <nombre>Alex</nombre>
+        <apellidos>Baños Ogando</apellidos>
+        <fechaNacimiento>10/01/1997</fechaNacimiento>
+    </datosPersonales>
+    <cursos>
+        <modalidad curso="DAW">Modular</modalidad>
+        <asignaturas clase="01">Leguage</asignaturas>
+        <asignaturas clase="01">Sistemas</asignaturas>
+        <asignaturas clase="01">Base de Datos</asignaturas>
+    </cursos>
+    <varios>
+        <añoComienzo>2020</añoComienzo>
+        <creditos>a saber</creditos>
+    </varios>
+</ficha>

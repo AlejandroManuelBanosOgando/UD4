@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<expedientes>
+    <expediente>
+        <titulacion>DAM</titulacion>
+        <estudiante>Ainhoa Gárte Lizarraga</estudiante>
+        <modulo>
+            <modulo nombre="Sistemas Informaticos" aprobado="true" curso="Primero"></modulo>
+            <modulo nombre="Lenguaje de Marcas" aprobado="true" curso="Primero"></modulo>
+            <modulo nombre="Programacion" aprobado="false" curso="Segundo"></modulo>
+        </modulo>
+    </expediente>
+    <expediente>
+        <titulacion>DAW</titulacion>
+        <estudianre>Ferran Soler Puig</estudianre>
+        <modulos>
+            <modulo nombre="Programacion" aprobado="true" curso="Primero"></modulo>
+            <modulo nombre="Desarrollo web en entorno cliente" aprobado="false" curso="Segundo"></modulo>
+            <modulo nombre="Desarrollo web en entorno servidor" aprobado="false" curso="Segundo"></modulo>
+        </modulos>
+    </expediente>
+</expedientes>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="4.4.xml" type="text/xsl"?>
+<?xml-model href="4.4xsd.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<xs:simpleType name="true_false">
+       <xs:restriction base="xs:string">
+              <xs:enumeration value="true"></xs:enumeration>
+              <xs:enumeration value="false"></xs:enumeration>
+       </xs:restriction>
+</xs:simpleType>
+<xs:simpleType name="primero_segundo">
+       <xs:restriction base="xs:string">
+              <xs:enumeration value="Primero"></xs:enumeration>
+              <xs:enumeration value="Segundo"></xs:enumeration>
+       </xs:restriction>
+</xs:simpleType>
+<xs:element name="expedientes">
+       <xs:complexType>
+              <xs:sequence>
+                     <xs:element name="expediente"/>
+                            <xs:complexType>
+                                   <xs:sequence>
+                                          <xs:element name ="titulacion" type="xs:string"></xs:element>
+                                          <xs:element name ="estudiante" type="xs:string"></xs:element>
+                                          <xs:element name ="modulos"></xs:element>
+                                                 <xs:complexType>
+                                                        <xs:sequence>
+                                                               <xs:element name="modulo">
+                                                                      <xs:complexType>
+                                                                             <xs:attribute name="nombre" type="xs:string"></xs:attribute>
+                                                                             <xs:attribute name="aprobado" type="true_false"></xs:attribute>
+                                                                             <xs:attribute name="curso" type="primero_segundo"></xs:attribute>
+                                                                      </xs:complexType>
+                                                               </xs:element>
+                                                        </xs:sequence>
+                                                 </xs:complexType>
+                                   </xs:sequence>
+                            </xs:complexType>
+                     </xs:element>
+              </xs:sequence>
+       </xs:complexType>
+</xs:element>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hamburguesa>
+    <cliente>
+        <nomnbre></nomnbre>
+        <direccion></direccion>
+    </cliente>
+    <pedido>
+        <hamburguesaClasica numero="1"></hamburguesaClasica>
+        <hamburguesaPollo numero="2"></hamburguesaPollo>
+        <patatas numero="3"></patatas>
+        <refreso numero="4"></refreso>
+    </pedido>
+</hamburguesa>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pelicula[
+    <!ATTLIST pelicula titulo CDATA #REQUIRED>
+    <!ATTLIST pelicula director CDATA #REQUIRED>
+    <!ATTLIST pelicula sinopsis CDATA #REQUIRED>
+    <!ATTLIST pelicula actores>
+    <!ATTLIST pelicula titulo CDATA #IMPLIED>
+    
+
+
+]>
+
+<pelicula titulo="" director="" sinopsis="" actores="" añoEstreno=""></pelicula>

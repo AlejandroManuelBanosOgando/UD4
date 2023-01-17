@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hamburguesa [
+    <!ELEMENT hamburguesa (cliente, pedido)>
+    <!ELEMENT cliente (nombre, direccion)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT direccion (#PCDATA)>
+    <!ELEMENT pedido (hamburguesaClasica, hamburguesaPollo, patatas, refresco)>
+    <!ELEMENT hamburguesaClasica (#PCDATA)>
+    <!ELEMENT hamburguesaPollo (#PCDATA)>
+    <!ELEMENT patatas (#PCDATA)>
+    <!ELEMENT refresco (#PCDATA)>
+
+    <!ATTLIST hamburguesaClasica numero CDATA #IMPLIED>
+    <!ATTLIST hamburguesaPollo numero CDATA #IMPLIED>
+    <!ATTLIST patatas numero CDATA #IMPLIED>
+    <!ATTLIST refresco numero CDATA #IMPLIED>
+]>

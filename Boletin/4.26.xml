@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="4.26.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<libro>
+    <titulo></titulo>
+    <autor></autor>
+    <genero></genero>
+</libro>

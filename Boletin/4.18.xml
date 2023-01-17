@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billete>
+    <pasajero>
+        <nombrePasajero>Alex</nombrePasajero>
+        <apellidoPasajero>Baños Ogando</apellidoPasajero>
+    </pasajero> 
+    <origen-destino>
+        <aeropuertoOrigen>Santiago de Compostela</aeropuertoOrigen>
+        <aeropuertoDestino>Roma</aeropuertoDestino>
+    </origen-destino>
+    <vuelo>
+        <fecha>10/01/2023</fecha>
+        <hora>9:00</hora>
+    </vuelo>
+</billete>

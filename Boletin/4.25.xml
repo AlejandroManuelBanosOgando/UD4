@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE videojuego[
+    <!ELEMENT videojuego (genero+)>
+    <!ATTLIST videojuego titulo CDATA #REQUIRED>
+
+
+]>
+
+
+
+<videojuego titulo="">
+    <genero></genero>
+
+</videojuego>

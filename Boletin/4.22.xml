@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura>
+    <cliente>
+        <numero></numero>
+        <fecha></fecha>
+        <nombre></nombre>
+        <direccion></direccion>
+    </cliente>
+    <productos>
+        <nombre></nombre>
+        <numero precio=""></numero>
+    </productos>
+    <total>
+        <subtotal></subtotal>
+        <IVA></IVA>
+        <precioTotal></precioTotal>
+    </total>
+</factura>

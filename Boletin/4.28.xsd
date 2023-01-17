@@ -1,0 +1,25 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:simpleType name="tipoIncidencia">
+    <xs:restriction type="xs:string">
+        <xs:enumeration value="tecnica de facturacion"></xs:enumeration>
+        <xs:enumeration value="de servicio"></xs:enumeration>
+    </xs:restriction>
+</xs:simpleType>
+
+
+
+
+    <xs:element name="incidencia">
+       <xs:complexType>
+        <xs:element name="cliente">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:attribute name="nombre" type="xs:string" use="required"></xs:attribute>
+                    <xs:attribute name="fecha" type="xs:date"></xs:attribute>
+                    <xs:attribute name="tipo" type="xs:tipoIncidencia"></xs:attribute>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:element>
+       </xs:complexType>
+    </xs:element>
+</xs:schema>
