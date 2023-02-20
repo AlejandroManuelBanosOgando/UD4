@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<series>
+    <Simpsons>
+        <titulo>The Simpsons</titulo>
+        <temporadas>34</temporadas>
+        <fecha_Inicio>17 de diciembre de 1989</fecha_Inicio>
+    </Simpsons>
+    <Sopranos>
+        <titulo>The Sopranos</titulo>
+        <temporadas>6</temporadas>
+        <fecha_Inicio>10 de enero 1999</fecha_Inicio>
+    </Sopranos>
+    <peaky>
+        <titulo>Peaky Blinders</titulo>
+        <temporadas>6 y una pelicula en 2024</temporadas>
+        <fecha_Inicio>12 de septiembre de 2013</fecha_Inicio>
+    </peaky>
+    <breakingBad>
+        <titulo>breaking Bad</titulo>
+        <temporadas>5</temporadas>
+        <fecha_Inicio>20 de enero de 2008</fecha_Inicio>
+    </breakingBad>
+    <better>
+        <titulo>Better Caul Saul</titulo>
+        <temporadas>6</temporadas>
+        <fecha_Inicio>8 de febrero 2015</fecha_Inicio>
+    </better>
+</series>
