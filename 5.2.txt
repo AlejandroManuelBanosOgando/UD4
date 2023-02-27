@@ -4,4 +4,4 @@
 
 //series[@temporadas>10]
 
-//series/titulo[text(),'L']/string() || //series/titulo[contains(text(),'L')]
+//series/titulo[contains(text(),'L')]
