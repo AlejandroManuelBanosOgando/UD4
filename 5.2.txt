@@ -1,7 +1,7 @@
-//series
+//serie
 
-//series[@fecha_inicio<2000]
+//serie[fecha_inicio<2000]
 
-//series[@temporadas>10]
+//serie[temporadas>10]
 
-//series/titulo[contains(text(),'L')]
+//serie/titulo[contains(text(),'L')]
