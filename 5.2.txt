@@ -1,0 +1,7 @@
+//series
+
+//series[@fecha_inicio<2000]
+
+//series[@temporadas>10]
+
+//series/titulo[text(),'L']/string() || //series/titulo[contains(text(),'L')]
